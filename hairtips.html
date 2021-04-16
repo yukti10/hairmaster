@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tips</title>
+  
+    
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"    rel = "stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/Aboutus.css" />  
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script> 
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> 
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"    rel = "stylesheet"> 
+    
+    <script>
+      $(document).ready(function(){
+      $("#accordion").accordion({
+      event: "mouseover",
+      collapsible: true
+  });
+});
+</script>
+<style>
+  section.contact form {
+    background-color: white;
+    color: #0d002b;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 70%;
+    transform: translate(20%, 0%);
+}
+</style>
+</head>
+<body>
+    <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#" style="font-family: cursive;"><img src="images/logo.png">Hair <em>Master</em> </a>
+    </div>
+    <a href="#menu" id="hamnav" class="menu-link" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="Aboutus.html">About Us</a></li>
+        <li><a href="#">Get Started</a></li>
+       <li style="vertical-align: top;">   <a href="#"> <span id="cartvalue" style="color: #fffffff7;
+          position: absolute;
+        
+          transform: translate(299%, -16%);">0</span><img src="images/cart.png"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div style="width: 100%;">
+          <div class="section-heading">
+            <h2 style="color: white;">Tips for your Hair</h2>
+          </div>
+        </div>
+        <div style="width: 100%;" >            
+          <form id="contact">
+            <div class="row">
+              <div style="width: 99%;">
+                  <fieldset>
+                    <div id="accordion">
+                      <h3 id="qu">1. Pump up the protein</h3>
+                      <div id="ans">
+                        A well-rounded diet is an important factor in hair and scalp health. Hair is primarily made up of protein, so be sure to eat at least 45 grams of protein daily. Good sources include:
+<ul>
+    <li>lean meat</li>
+    <li>poultry</li>
+    <li>fish</li>
+    <li>beans</li>
+    <li>eggs</li>
+</ul>
+
+
+                      </div>
+                      <h3 id="qu">2. Zinc about it</h3>
+                      <div id="ans">
+                        Zinc deficiency can cause hair to shed. Incorporate nuts like Brazil nuts, walnuts, pecans, cashews, and almonds into your diet to combat shedding.
+                      </div>
+                      <h3 id="qu">3. Omega your hair nice</h3>
+                      <div id="ans">
+                        Increasing your intake of omega-3 fatty acids may stimulate your hair follicles and sebaceous glands. While this won’t cause your hair to grow, it may improve scalp health.
+                      </ul>
+                      </div>
+                  </div>
+              </div>
+             
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+      
+</body>
+</html>
